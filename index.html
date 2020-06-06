@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Housing</title>
+    <!-- Bootstraps links-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <!--header icon-->
+    <link rel="icon" href="./images/house.png">
+
+     <!-- animation -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+     <!-- animation -->
+
+     <!-- font icon -->
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- font icon end -->
+
+    <!--my css file-->
+    <link rel="stylesheet" href="./css/style.css">
+
+
+    <!-- css buttons -->
+    <link rel="stylesheet" href="https://cdnjs.com/libraries/bttn.css">
+    <link rel="stylesheet" href="./css/bttn.min.css">
+
+     <!-- font google -->
+    <link rel="stylesheet" href="./css/css2.css">
+
+     <!-- aos -->
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+     <!-- aos -->
+
+</head>
+<body>
+
+    <!--loader div-->
+    <!--<div id="loader">
+        <h1 class="animated infinite bounce delay-2s"><i class="fas fa-home"></i> Star Housing</h1>
+
+    </div> -->
+
+     <!-- Navbar start -->
+     <nav class="navbar navbar-expand-lg navbar-dark fixed-top container-fluid">
+        <div class="container">
+            <h1 class="navbar-brand"><i class="fa fa-home"></i></i> Star Housing</h1>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0 text-center">
+                    <li class="nav-item mr-3 "><a class="nav-link px-4" href="#">Home</a></li>
+                    <li class="nav-item mr-3 "><a class="nav-link px-4" href="#about">About</a></li>
+                    <li class="nav-item mr-3 "><a class="nav-link px-4" href="#work">Work</a></li>
+                    <li class="nav-item mr-3 "><a class="nav-link px-4" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="header">
+        <img date-aos="fade-up" src="./images/office.png" alt="officepicture" class="img-fluid">
+        <div class="middle">
+            <span class="text-type-animation text-white">
+                <strong>IT IS ALL ABOUT</strong><br />
+
+                <span class="txt-rotate" data-period="2000"
+                    data-rotate='[ "Housing", "Managment", "And Decoration"]'>
+
+                </span>
+            </span><br /><br />
+
+            <button class="bttn-unite bttn-lg bttn-success bttn-no-outline" data-toggle="modal" data-target="#myModal">Register Now</button>
+        </div>
+    </div>
+
+
+   <!--modal start here-->
+
+   <div class="container">
+       <!-- modal start-->
+       <div class="modal fade" id="myModal">
+           <div class="modal-dialog modal-xl modal-lg modal-md">
+               <div class="modal-content">
+
+                    <!--modal header start-->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Register</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <!--modal body start here-->
+                    <div class="modal-body">
+                        <div class="container">
+                            <form action="">
+                                <div class="form-group">
+                                    <label for="first-name">First Name:</label>
+                                    <input type="text" class="form-control" id="first-name" placeholder="Enter First Name" name="fname" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="last-name">Last Name:</label>
+                                    <input type="text" class="form-control" id="last-name" placeholder="Enter Last Name" name="Lname" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="email">Email:</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Enter email here" name="email" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="room">Enter No of Room:</label>
+                                        <select class="form-control" name="room" id="room">
+                                        <option value="none">none</option>
+                                        <option value="one">One</option>
+                                        <option value="two">Two</option>
+                                        <option value="three">Three</option>
+                                    </select>
+                                </div>
+
+                                
+                                <div class="form-group">
+                                    <label for="city">select Your city:</label>
+                                        <select class="form-control" name="city" id="city">
+                                        <option value="none">none</option>
+                                        <option value="karachi">Karachi</option>
+                                        <option value="lahore">Lahore</option>
+                                        <option value="hyderabad">Hyderabad</option>
+                                        <option value="islamabad">Islamabad</option>
+                                        <option value="peshawar">Peshawar</option>
+                                        <option value="rawalpindi">RawalPindi</option>
+                                        <option value="mansehra">Mansehra</option>
+                                        <option value="muree">Muree</option>
+                                        <option value="Quetta">Quetta</option>
+                                        <option value="sukkur">Sukkur</option>
+                                    </select>
+                                </div>
+                                
+                                
+                                <div class="form-group">
+                                    <label for="family-member">Family Member:</label>
+                                        <select class="form-control" name="family-member" id="family-member">
+                                        <option value="none">none</option>
+                                        <option value="one">One</option>
+                                        <option value="two">Two</option>
+                                        <option value="three">Three</option>
+                                        <option value="four">Four</option>
+                                        <option value="five">Five</option>
+                                        <option value="moreThanFive">More Than Five</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group form-check">
+                                    <label for="form-check1">
+                                        <input type="checkbox" name="remember" class="form-check-input" id="form-check1">Agree
+                                    </label>
+                                </div>
+                                <button type="submit" class="bttn-fill bttn-lg bttn-success bttn-no-outline">Register</button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <!--modal footer start here-->
+                    <div class="modal-footer">
+                        <button type="button" class="bttn-stretch bttn-md bttn-danger bttn-no-outline" data-dismiss="modal">Close</button>
+                    </div>
+               </div>
+           </div>
+       </div>
+   </div>
+
+   <!--about page is start here -->
+   <div id="about">
+     <br />  <div class="container-fluid" id="aboutcontent">
+           <h1 class="text-center" data-aos="slide-right"><span class="text-primary">-</span>About<span class="text-primary">-</span></h1>
+        <br />
+            <h2></h2>
+            <div class="row">
+                <div class="col-12 col-xl-5 col-lg-6 col-md-6 col-sm-12 pl-0" data-aos="fade-up" id="aboutimg">
+                    <img src="./images/house.png" class="img-fluid" alt="house picture">
+                </div>
+
+                <div class="col-12 col-xl-5 col-lg-6 col-md-6 col-sm-12 ml-xl-5" data-aos="fade-up" id="abutext">
+                    <br>
+                    <h3>ABOUT <span class="text-info"> THE DIRECTORY,</span></h3> <br>
+                     <p>
+                        PakRealEstate.com is the brainchild of our founder Mr Zahid Iqbal, who has worked for
+                            over 36
+                            years
+                            in
+                            the Real Estate Industry and has made it his vision to promote and uplift the Real
+                            Estate
+                            Industry
+                            of
+                            Pakistan.
+
+                            The portal has its roots in the original print version of the Real Estate Directory for
+                            Defence
+                            and
+                            Clifton Real Estate Professionals that was started back in 1997. As the world of
+                            business
+                            evolves
+                            and
+                            moves more into the online space, we are now taking the directory online and expanding
+                            it
+                            significantly
+                            in order to facilitate the growth of the overall industry.
+
+                            We believe that growth in the Real Estate Industry helps to facilitate growth in the
+                            economy of
+                            the
+                            country and thus our efforts in this enterprise will benefit the nation.
+                            he portal has its roots in the original print version of the Real Estate Directory for
+                            Defence
+                            and
+                            Clifton Real Estate Professionals that was started back in 1997.
+                    </p>
+
+                </div>
+            </div>
+       </div>
+   </div> -->
+ 
+   <!--bg Picture set here-->
+     <div class="bgimg"></div>
+     
+     <!--work content start here-->
+   <div class="" id="work"><br /><br />
+    <h1 class="text-center" data-aos="slide-right"><span class="text-primary">-</span>Work <span class="text-primary">-</span></h1>
+    <br /><br/>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-xl-4 col-lg-4 col-md-4 col-sm-12 mb-2" data-aos="fade-up">
+                <div class="hoverEffect">
+                    <img class="img-responsive img-set" src="./images/image1.jpg" alt="image1">
+                    <div class="imgText">
+                        <h2>Seller</h2>
+                        <p class="info">Hi, This is Example</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-xl-4 col-lg-4 col-md-4 col-sm-12 mb-2" data-aos="fade-up">
+                <div class="hoverEffect">
+                    <img class="img-responsive img-set" src="./images/image2.jpg" alt="image1">
+                    <div class="imgText">
+                        <h2>Seller</h2>
+                        <p class="info">Hi, This is Example</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-xl-4 col-lg-4 col-md-4 col-sm-12 mb-2" data-aos="fade-up">
+                <div class="hoverEffect">
+                    <img class="img-responsive img-set" src="./images/image3.jpg" alt="image1">
+                    <div class="imgText">
+                        <h2>Seller</h2>
+                        <p class="info">Hi, This is Example</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-xl-4 col-lg-4 col-md-4 col-sm-12 mb-2" data-aos="fade-up">
+                <div class="hoverEffect">
+                    <img class="img-responsive img-set" src="./images/image4.jpg" alt="image1">
+                    <div class="imgText">
+                        <h2>Seller</h2>
+                        <p class="info">Hi, This is Example</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-xl-4 col-lg-4 col-md-4 col-sm-12 mb-2" data-aos="fade-up">
+                <div class="hoverEffect">
+                    <img class="img-responsive img-set" src="./images/image3.jpg" alt="image1">
+                    <div class="imgText">
+                        <h2>Seller</h2>
+                        <p class="info">Hi, This is Example</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-xl-4 col-lg-4 col-md-4 col-sm-12 mb-2" data-aos="fade-up">
+                <div class="hoverEffect">
+                    <img class="img-responsive img-set" src="./images/image6.jpg" alt="image1">
+                    <div class="imgText">
+                        <h2>Seller</h2>
+                        <p class="info">Hi, This is Example</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--contact page start here-->
+
+<div id="contact">
+   <h1 class="text-center mb-xl-5 mb-lg-5 mb-md-5" data-aos="slide-right"><span class="text-primary">-</span>Contact <span class="text-primary">-</span></h1>
+  
+   <div class="container">
+        <div class="row">
+                <div class="col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12" id="form" data-aos="fade-right">
+                    <label for="name"></label>
+                    <input type="text" name="name" id="name" class="form-control" placeholder="Your Full Name" required>
+
+                    <label for="email"></label>
+                    <input type="email" name="email" id="email" class="form-control" placeholder="Enter your Email" required>
+
+                    <label for="subject"></label>
+                    <input type="text" name="subject" id="subject" class="form-control" placeholder="Enter your subject" required>
+
+                    <label for="text-area"></label>
+                    <textarea class="form-control" name="text-area" id="text-area" rows="2" placeholder="Enter your message.."></textarea><br /><br />
+                    <button class=" bttn-unite bttn-lg bttn-success bttn-no-outline" class="btn-set">Send</button>
+                </div>
+
+                <div class="col-12 col-xl-2 col-lg-2 col-md-2 col-sm-2"></div>
+
+                <div class="col-12 col-xl-4 col-lg-4 col-md-4 col-sm-12 mt-sm-5 mt-5 mt-xl-0 mt-lg-0 mt-md-0" id="cont">
+                    <h4 data-aos="fade-up">Email:</h4>
+                    <a data-aos="fade-up" href="mailto:im.shah991@gmail.com">
+                        im.shah991@gmail.com
+                    </a> <br /> <br /><br />
+
+                    <h4 data-aos="fade-up">Our Office:</h4>
+                    <h5 data-aos="fade-up">Block#828, PIDC, <br /> Karachi. <br /><br /> Mob. +923123436139</h5>
+                    <br /><br /><br />
+                    <h4 data-aos="fade-up">Follow Us</h4> <br />
+                    <ul>
+                        <li>
+                            <a href="https://facebook.com" target="_blank">Facebook</a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com" target="_blank">Twitter</a>
+                        </li>
+                        <li>
+                            <a href="https://linkedin.com" target="_blank">Linkedin</a>
+                        </li>
+                        <li>
+                            <a href="https://youtube.com" target="_blank">Youtube</a>
+                        </li>
+                        <li>
+                            <a href="https://instragram.com" target="_blank">Instragram</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    </div>
+    <br /><br /><br />
+
+    <div class="footer">
+        <p class="container text-light mt-0 text-center">&copy;copyright 2019-2020; All copyright reversed</p>
+    </div>
+
+</div>
+
+<a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button"><i class="fas fa-chevron-up"></i></a>
+
+
+  
+  
+    <!--JS core bootstrap file-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+ <!-- ______________aos_____________ -->
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script>
+     AOS.init({
+         offset: 160,
+         duration: 800
+     }
+     );
+
+// loader--------------
+$(window).on("load",function(){
+$("#loader").fadeOut("slow");
+});
+//------------------------
+ </script>
+
+<!--script js file add-->
+<script src="./js/script.js"></script>
+</body>
+</html>
